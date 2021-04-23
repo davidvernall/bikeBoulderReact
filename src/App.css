@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: #293241;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.masthead {
+  padding-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#search {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.card-img-top {
+  width: 100%;
+  height: 40vw;
+  object-fit: cover;
+}
+
+
+
+.mx-2 {
+  color: #293241;
+}
+
+
+/* masthead css */
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-image:
+      url("/img/intricate-explorer-D9VQo3GmapA-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.boulderCanyonHead {
+  position: relative;
+  width: 100%; 
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-image:
+      url("/img/19DC36D8-CF84-4583-AE1A-0E2E46DC3B48_1_105_c.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#pyoRide {
+  padding-bottom: 100px;
+}
+
+.masthead h2 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.masthead h4 {
+  color: #e5e5e5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#search h4 {
+  color: #293241;
+}
+
+.boulderCanyonHead h2 {
+  color: #e5e5e5;
 }
